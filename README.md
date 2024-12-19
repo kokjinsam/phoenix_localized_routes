@@ -45,7 +45,7 @@ defp html_helpers do
     # ...other code...
 
     # Routes generation with the ~q sigil
-    unquote(verified_localized_routes())
+    unquote(localized_routes())
   end
 end
 ```
